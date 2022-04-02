@@ -9,8 +9,8 @@
 #include <unistd.h>
 #include <sys/stat.h>
 
-#include <dbglogger.h>
-#define LOG dbglogger_log
+//#include <dbglogger.h>
+#define LOG printf
 
 #ifdef __PPU__
 #include <ppu-types.h>
