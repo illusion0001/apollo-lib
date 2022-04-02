@@ -5,8 +5,8 @@
 
 #include "apollo.h"
 
-#include <dbglogger.h>
-#define LOG dbglogger_log
+//#include <dbglogger.h>
+#define LOG printf
 
 #define UTF8_CHAR_GROUP		"\xe2\x97\x86"
 #define UTF8_CHAR_ITEM		"\xe2\x94\x97"
