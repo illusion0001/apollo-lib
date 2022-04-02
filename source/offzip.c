@@ -30,8 +30,8 @@
 
 #include "unpack.h"
 
-#include <dbglogger.h>
-#define LOG dbglogger_log
+//#include <dbglogger.h>
+#define LOG printf
 
 
 #define VER             "0.3.5"
